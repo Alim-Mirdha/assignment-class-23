@@ -63,18 +63,24 @@ a{
 .banner{
     margin: 25px 0 10px;
 }
-.full-banner{
+.full-banner {
     display: flex;
+    padding: 49px 0 13px;
 }
-.banner-right{
+.banner-right {
     width: 78%;
+    padding: 62px 0 22px;
 }
 .banner-left{
     width: 22%;
     background: #D2D2D2;
     border-left: 2px solid red;
+    padding: 10px 19px;
 }
-
+.banner-left h5 {
+    font-size: 19px;
+    margin-top: 6px;
+}
 .banner-fix{
     display: flex;
     justify-content: space-evenly;
@@ -170,3 +176,113 @@ a{
 .right-div2 p{
     font-size: 12px;
 }
+
+
+
+
+
+
+
+.banner-fix3{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.left-div3{
+    border: 1px solid green;
+    width: 29%;
+    height: 128px;
+
+}
+.left-div3 ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 19px 0;
+}
+.center-div3{
+    width: 29%;
+    height: 128px;
+    border: 1px solid green;
+   
+}
+.center-div3 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    height: 128px;
+    padding: 0 19px;
+
+}
+.right-div3{
+    border: 1px solid green;
+    width: 29%;
+    height: 128px;
+   
+}
+.right-div3 ul{
+    display: flex;
+    padding: 19px 45px;
+    box-sizing: border-box;
+}
+
+.banner-fix3 li {
+    width: 35px;
+    height: 28px;
+    background-color: red;
+    border: 1px solid green;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    align-items: center;
+}
+.right-div3 ul li{
+   width: 55px;
+   
+}
+.second {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90px;
+    margin-left: 22px;
+}
+.thard {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    height: 90px;
+    margin-left: 22px;
+}
+
+
+/* FOOTER AREA STAERT HERE */
+.footer{
+    background-color: #000;
+    color: #f9f9f9;
+    padding: 10px 0;
+    margin-bottom: 32px;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+}
+.footer ul li a {
+    color: #f9f9f9;
+    padding: 10px 20px;
+    font-size: 12px;
+    display: block;
+    position: relative;
+}
+.footer ul li a::after {
+    content: "";
+    background-color: #CCCCCD;
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    bottom: 3px;
+    left: 15%;
+}
+
+/* FOOTER AREA END HERE */
