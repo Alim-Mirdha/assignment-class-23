@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.header-width{
+    max-width: 710px;
+    margin: auto;
+}
+
+/* HEADER AREA START HERE */
+.header-area{
+    background-color: #000;
+    padding: 11px 0;
+}
+.header-flex{
+    display: flex;
+}
+.logo-area{
+    width: 30%;
+}
+.logo-area img {
+    height: 53px;
+}
+.menu-area{
+    width: 70%;
+}
+.main-menu ul{
+    text-align-last: right;
+}
+.main-menu ul li{
+    display: inline-block;
+    
+}
+.main-menu ul li a {
+    display: block;
+    color: #CCCCCD;
+    padding: 10px 12px;
+    font-size: 11px;
+    line-height: 37px;
+    position: relative;
+}
+.main-menu ul li a::after {
+    content: "";
+    background-color: #CCCCCD;
+    width: 80%;
+    height: 1px;
+    position: absolute;
+    bottom: 14px;
+    left: 10%;
+}
+/* HEADER AREA END HERE */
+.banner{
+    margin: 25px 0 10px;
+}
+.full-banner{
+    display: flex;
+}
+.banner-right{
+    width: 78%;
+}
+.banner-left{
+    width: 22%;
+    background: #D2D2D2;
+    border-left: 2px solid red;
+}
+
+.banner-fix{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.left-div{
+    border: 1px solid green;
+    width: 29%;
+    height: 240px;
+}
+.left-div p{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.center-div{
+    width: 29%;
+    height: 240px;
+    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.center-div p{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right-div{
+    border: 1px solid green;
+    width: 29%;
+    height: 240px;
+    justify-content: end;
+    align-items: flex-end;
+    display: flex;
+}
+.right-div p{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.banner-fix2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 5px;
+
+}
+.left-div2{
+    border: 1px solid green;
+    width: 23%;
+    padding: 19px;
+    box-sizing: border-box;
+}
+.center-div2{
+    width: 44%;
+    border: 1px solid green;
+    padding: 19px;
+    box-sizing: border-box;
+}
+.right-div2{
+    border: 1px solid green;
+    width: 23%;
+    padding: 19px;
+    box-sizing: border-box;
+}
+.left-div2 p{
+    font-size: 12px;
+}
+.center-div2 p{
+    font-size: 12px;
+}
+.right-div2 p{
+    font-size: 12px;
+}
